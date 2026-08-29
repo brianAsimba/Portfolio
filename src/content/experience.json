@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gm-ai-innovation",
+    "company": "General Motors",
+    "role": "AI Innovation Engineer, Manufacturing Engineering",
+    "dateRange": "April 2025 – Present",
+    "order": 1,
+    "bullets": [
+      "Architecting AI models (fully connected neural networks with reverse optimization) into stamping simulation workflows to predict and resolve formability failures — POC stage, targeting reduced inspection time and elimination of recurring defects.",
+      "Building a computer-vision defect detection system for automated stamped-surface quality inspection, extended into a multi-agent AI architecture spanning design, simulation, and physical validation (Trade Secret).",
+      "Single point of executive reporting for GM's stamping AI & Digitization portfolio, briefing senior managers and the Director of Stamping on progress, risk, and roadmap; lead a recurring cross-functional AI governance forum and coordinate with other regions to prevent duplicated investment.",
+      "Designed and shipped an AI chatbot adopted by die engineering teams to eliminate manual searching across GM standards, MRs, and GBoPs; built an automated NX Teamcenter data pipeline for ML training.",
+      "Co-invented Stamp-GPT, a generative AI system for stamping tool design.",
+      "Run weekly AI-literacy sessions for ~50 stamping engineers and lead Workplace of Choice, a technical talk series reaching ~150 attendees across the global Manufacturing Engineering organization."
+    ]
+  },
+  {
+    "id": "gm-formability",
+    "company": "General Motors",
+    "role": "Simultaneous & Formability Engineer, Roofs",
+    "dateRange": "July 2023 – April 2025",
+    "order": 2,
+    "bullets": [
+      "Owned manufacturability sign-off for GM roofs, sunroofs, and reinforcements against DFM, Manufacturing Requirements, and Global Bill of Process — the standard other engineers were measured against.",
+      "Delivered $12K/year in run-rate savings via a material change (BH240 → CR3) and reduced blank size on mini-roof programs, both within the first 3 months in role.",
+      "Represented GM on Auto/Steel Partnership industry initiatives — gigacasting vs. AHSS trade studies, high-strength-steel formability, edge-cracking analysis, press-tonnage correction modeling, and Stamping 4.0 technology scouting.",
+      "Co-authored a defensive publication for partitioning sheet blanks in stamping simulation, adopted org-wide (Usage Approved).",
+      "Contributed to the Manufacturing Engineering AI chatbot effort centralizing access to GM standards, MRs, and GBoPs."
+    ]
+  },
+  {
+    "id": "rivian",
+    "company": "Rivian",
+    "role": "Sr. Manufacturing Engineer, Stamping Feasibility",
+    "dateRange": "2021 – 2023",
+    "order": 3,
+    "bullets": [
+      "Led the R1 stamping cost-reduction program to ~$2.6M in savings, building the business case with Finance (NPV, IRR, payback, MARR) to win budget approval.",
+      "Led full-vehicle stamping feasibility analysis for the R1 program — part feasibility, process evaluation, and material selection — applying DFM/DFA principles.",
+      "Directed the R1 blank-savings initiative, setting priorities and delegating work across Tooling, Process Engineering, Production Control, Material Purchasing, and Material Analysts via Smartsheet — reporting progress to the Vehicle Line Director.",
+      "Resolved cross-functional quality issues spanning Product Engineering, Body Assembly, Paint, and End-of-Line."
+    ]
+  },
+  {
+    "id": "tesla",
+    "company": "Tesla",
+    "role": "Simulation Engineer, Tooling & Die Engineering",
+    "dateRange": "2017 – 2021",
+    "order": 4,
+    "bullets": [
+      "Designed Class A surface and closure dies in CATIA V5; ran AutoForm simulations on body and battery components to surface manufacturing risk before tooling commitment.",
+      "Led material-testing studies validating material-card accuracy and improving tryout-result prediction from CAE simulation.",
+      "Drove continuous-improvement initiatives in material savings and springback reduction."
+    ]
+  },
+  {
+    "id": "g-tekt",
+    "company": "G-TEKT",
+    "role": "Simulation Engineer, New Product Development",
+    "dateRange": "2015 – 2017",
+    "order": 5,
+    "bullets": [
+      "Designed and modeled dies for Honda stamping parts in CATIA; ran JSTAMP/NV formability simulations with Guest Engineers to meet Honda program requirements.",
+      "Ran crash analyses (side impact, frontal, pole, roof crush) for the 2018 Honda MDX using ANSA/META to inform safety countermeasures.",
+      "Led joint Guest/Simulation Engineering reviews and Quality Circle participation to align program requirements across departments."
+    ]
+  }
+]

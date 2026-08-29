@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+
+const education = await getCollection('education');
+---
+
+<section id="education" class="section">
+  <div class="container">
+    <p class="section-eyebrow">05 — Education</p>
+    <h2 class="section-title">Academic &amp; professional training</h2>
+    <div class="edu-grid">
+      {education.map((entry) => (
+        <div class="edu-card">
+          <p class="edu-date">{entry.data.dateRange}</p>
+          <h3>{entry.data.institution}</h3>
+          <p class="edu-credential">{entry.data.credential}</p>
+          {entry.data.notes?.map((note) => <p class="edu-note">{note}</p>)}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

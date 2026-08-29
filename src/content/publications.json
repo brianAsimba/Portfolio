@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ai-automotive-stamping",
+    "title": "Artificial Intelligence in Automotive Stamping – The Latest Industrial Applications and Future Directions",
+    "authors": "Sheng, Z., Huang, L., Asimba, B., McCarty, E., et al.",
+    "venue": "SAE Technical Paper 2026-01-0179 — WCX SAE World Congress Experience, Detroit, MI",
+    "year": "2026",
+    "summary": "A review of AI applications in automotive stamping, covering key AI technologies, industrial use cases, and strategic challenges and future directions for the industry.",
+    "url": "https://saemobilus.sae.org/papers/artificial-intelligence-automotive-stamping-latest-industrial-applications-future-directions-2026-01-0179"
+  },
+  {
+    "id": "hydrogel-ph-simulation",
+    "title": "Numerical Simulation of pH-sensitive Hydrogel Response in Different Conditions",
+    "authors": "Ghantasala, M.K., Asimba, B.O., Khaminwa, A., Suthar, K.J., Mancini, D.C.",
+    "venue": "COMSOL Conference, Boston, MA",
+    "year": "2012",
+    "summary": "Finite element simulation of the coupled chemo-electro-mechanical behavior of pH-sensitive hydrogels, modeling swelling response across a pH range of 2–12 and validating against experimental data.",
+    "url": "https://www.comsol.com/paper/numerical-simulation-of-ph-sensitive-hydrogel-response-in-different-conditions-13828"
+  },
+  {
+    "id": "jupiter-trajectory-tfc",
+    "title": "Utilizing Thrust Fourier Coefficients for Sequential Targeting in a Jupiter Orbit Trajectory",
+    "authors": "Asimba, B.O., Hudson, J.",
+    "venue": "AAS/AIAA Astrodynamics Specialist Conference, Hilton Head, SC",
+    "year": "2013",
+    "summary": "Applied Thrust Fourier Coefficients to sequentially target waypoints in a low-thrust spacecraft trajectory optimization near Jupiter's moon Europa."
+  }
+]

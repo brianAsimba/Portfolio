@@ -1,0 +1,31 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<section class="hero" style={`background-image: linear-gradient(180deg, rgba(10,11,15,0.88), rgba(10,11,15,0.94) 55%, var(--bg) 100%), url(${base}images/mars3.png);`}>
+  <div class="container">
+    <h1 class="hero-title">Brian Asimba</h1>
+    <p class="hero-role">AI Innovation Engineer — Manufacturing &amp; Digital Transformation, General Motors</p>
+    <p class="hero-sub">
+      I lead AI and digitization strategy across GM's stamping organization — turning predictive modeling,
+      generative AI, and computer vision into tools engineering teams actually adopt, on top of a decade of
+      hands-on manufacturing and tooling engineering at Tesla, Rivian, and G-TEKT.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href={`${base}resumes/brian-asimba-technical-resume.docx`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v13m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+        Technical Resume
+      </a>
+      <a class="btn btn-ghost" href={`${base}resumes/brian-asimba-leadership-resume.docx`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v13m0 0-4-4m4 4 4-4M5 21h14"/></svg>
+        Leadership Resume
+      </a>
+      <a class="btn btn-ghost" href="#experience">View Experience</a>
+    </div>
+    <ul class="hero-stats">
+      <li><span class="stat-num">10+</span><span class="stat-label">Years in manufacturing &amp; simulation engineering</span></li>
+      <li><span class="stat-num">5</span><span class="stat-label">Patent &amp; trade secret disclosures</span></li>
+      <li><span class="stat-num">4</span><span class="stat-label">Companies — GM, Rivian, Tesla &amp; G-TEKT</span></li>
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Experience from '../components/Experience.astro';
+import Patents from '../components/Patents.astro';
+import Publications from '../components/Publications.astro';
+import Education from '../components/Education.astro';
+import Skills from '../components/Skills.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Brian Asimba — AI Innovation Engineer"
+  description="Brian Asimba — AI Innovation Engineer at General Motors, manufacturing engineer, and inventor. AI strategy, stamping engineering, and a decade of experience across GM, Rivian, Tesla, and G-TEKT."
+>
+  <Header />
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Patents />
+    <Publications />
+    <Education />
+    <Skills />
+    <Contact />
+  </main>
+  <Footer />
+</BaseLayout>

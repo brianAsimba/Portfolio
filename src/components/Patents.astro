@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+
+const patents = await getCollection('patents');
+---
+
+<section id="patents" class="section">
+  <div class="container">
+    <p class="section-eyebrow">03 — Patents &amp; IP</p>
+    <h2 class="section-title">Co-inventor on 5 GM disclosures (2024–2026)</h2>
+    <div class="card-grid">
+      {patents.map((patent) => (
+        <article class="card">
+          <p class="card-type">{patent.data.type}</p>
+          <h3>{patent.data.title}</h3>
+          <p>{patent.data.description}</p>
+          <span class="card-year">{patent.data.year}</span>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

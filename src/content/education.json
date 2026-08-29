@@ -1,0 +1,29 @@
+[
+  {
+    "id": "kettering-training",
+    "institution": "Kettering University",
+    "credential": "Professional Training in Generative AI, Formability AI",
+    "dateRange": "Nov 2025 – Feb 2026"
+  },
+  {
+    "id": "mit-certificate",
+    "institution": "Massachusetts Institute of Technology (MIT)",
+    "credential": "Certificate in Applied Data Science: Leveraging AI for Effective Decision Making",
+    "dateRange": "2025"
+  },
+  {
+    "id": "unl-ms",
+    "institution": "University of Nebraska–Lincoln",
+    "credential": "M.S., Engineering Management (CPEM, PMP), Business Minor",
+    "dateRange": "2024"
+  },
+  {
+    "id": "wmu-bs",
+    "institution": "Western Michigan University",
+    "credential": "B.S., Aeronautical/Mechanical Engineering",
+    "dateRange": "2013",
+    "notes": [
+      "Senior design & hydrogel research on cancer-targeting drug delivery — presented and published Oct 2012; awarded the Office of the Vice President for Research (OVPR) scholarship for two semesters."
+    ]
+  }
+]
