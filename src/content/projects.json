@@ -1,0 +1,9 @@
+[
+  {
+    "id": "medical-chatbot-llama2",
+    "title": "End-to-End Medical Chatbot Using Llama2",
+    "description": "A retrieval-augmented generation (RAG) chatbot that answers medical questions — retrieves relevant context from a Pinecone vector database and generates grounded responses with a quantized Llama 2 (7B) model, served through a Flask web app.",
+    "stack": ["Python", "LangChain", "Flask", "Meta Llama 2", "Pinecone"],
+    "url": "https://github.com/brianAsimba/End-to-end-Medical-Chatbot-using-Llama2"
+  }
+]

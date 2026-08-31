@@ -48,4 +48,15 @@ const publications = defineCollection({
   }),
 });
 
-export const collections = { experience, patents, education, publications };
+const projects = defineCollection({
+  loader: file('src/content/projects.json'),
+  schema: z.object({
+    id: z.string(),
+    title: z.string(),
+    description: z.string(),
+    stack: z.array(z.string()),
+    url: z.string(),
+  }),
+});
+
+export const collections = { experience, patents, education, publications, projects };

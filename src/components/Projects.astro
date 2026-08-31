@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+
+const projects = await getCollection('projects');
+---
+
+<section id="projects" class="section">
+  <div class="container">
+    <p class="section-eyebrow">07 — Projects</p>
+    <h2 class="section-title">Side projects</h2>
+    <div class="card-grid">
+      {projects.map((project) => (
+        <article class="card">
+          <h3>{project.data.title}</h3>
+          <p>{project.data.description}</p>
+          <ul class="project-stack">
+            {project.data.stack.map((tech) => <li>{tech}</li>)}
+          </ul>
+          <a class="pub-link" href={project.data.url} target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
