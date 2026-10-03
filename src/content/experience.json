@@ -7,7 +7,6 @@
     "order": 1,
     "bullets": [
       "Architecting AI models (fully connected neural networks with reverse optimization) into stamping simulation workflows to predict and resolve formability failures — POC stage, targeting reduced inspection time and elimination of recurring defects.",
-      "Building a computer-vision defect detection system for automated stamped-surface quality inspection (POC stage), linking design, simulation, and physical validation to catch surface defects earlier.",
       "Single point of executive reporting for GM's stamping AI & Digitization portfolio, briefing senior managers and the Director of Stamping on progress, risk, and roadmap; lead a recurring cross-functional AI governance forum and coordinate with other regions to prevent duplicated investment.",
       "Designed and shipped an AI chatbot adopted by die engineering teams to eliminate manual searching across GM standards, MRs, and GBoPs; built an automated NX Teamcenter data pipeline for ML training.",
       "Run weekly AI-literacy sessions for ~50 stamping engineers and lead Workplace of Choice, a technical talk series reaching ~150 attendees across the global Manufacturing Engineering organization."
